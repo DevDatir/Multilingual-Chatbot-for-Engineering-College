@@ -1,63 +1,5 @@
 [
     {
-        "name": "Indian Institute of Technology (IIT) Bombay",
-        "location": "Mumbai",
-        "type": "Public",
-        "rating": 4.9,
-        "courses": [
-            {
-                "name": "B.Tech Computer Science and Engineering",
-                "duration": "4 years",
-                "annual_fee": 220000,
-                "cutoffs": {
-                    "2023": {
-                        "Rank": 290
-                    },
-                    "2022": {
-                        "Rank": 285
-                    },
-                    "2021": {
-                        "Rank": 280
-                    }
-                }
-            },
-            {
-                "name": "B.Tech Mechanical Engineering",
-                "duration": "4 years",
-                "annual_fee": 220000,
-                "cutoffs": {
-                    "2023": {
-                        "Rank": 1200
-                    },
-                    "2022": {
-                        "Rank": 1150
-                    },
-                    "2021": {
-                        "Rank": 1100
-                    }
-                }
-            }
-        ],
-        "admission": {
-            "exam": "JEE Advanced",
-            "cutoff_description": "Cutoffs are based on the JEE Advanced rank for general category students."
-        },
-        "placements": {
-            "average_package": 2500000,
-            "highest_package": 6000000,
-            "top_recruiters": ["Microsoft", "Google", "Amazon", "Apple", "Facebook"]
-        },
-        "facilities": [
-            "Wi-Fi Campus",
-            "Smart Classrooms",
-            "Advanced Labs",
-            "Sports Complex",
-            "Incubation Center",
-            "Research Parks",
-            "Student Hostels"
-        ]
-    },
-    {
         "name": "Veermata Jijabai Technological Institute (VJTI)",
         "location": "Mumbai",
         "type": "Public",
@@ -1765,10 +1707,7 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 115046,
-                        "GSCH": 122160,
-                        "LOPEN": 106335,
-                        "LSCH": 119614,
-                        "LOBCH": 114620
+                        "LOPEN": 106335
                     }
                 }
             },
@@ -1779,12 +1718,6 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 54946,
-                        "GSCH": 61881,
-                        "GSTH": 100617,
-                        "GNT1H": 57132,
-                        "GNT2H": 98475,
-                        "GNT3H": 99477,
-                        "GOBCH": 62396,
                         "LOPEN": 48344
                     }
                 }
@@ -1796,10 +1729,6 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 79951,
-                        "GSCH": 89838,
-                        "GSTH": 107090,
-                        "GNT1H": 86892,
-                        "GOBCH": 86372,
                         "LOPEN": 76271
                     }
                 }
@@ -1811,10 +1740,6 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 85814,
-                        "GSCH": 94961,
-                        "GSTH": 102208,
-                        "GNT1H": 87237,
-                        "GOBCH": 106698,
                         "LOPEN": 76576
                     }
                 }
@@ -1826,9 +1751,6 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 99743,
-                        "GSCH": 122281,
-                        "GNT1H": 112294,
-                        "GOBCH": 120387,
                         "LOPEN": 116460
                     }
                 }
@@ -1865,12 +1787,6 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 24429,
-                        "GSCH": 39785,
-                        "GVJH": 25961,
-                        "GNT1H": 29850,
-                        "GNT2H": 36292,
-                        "GNT3H": 27586,
-                        "GOBCH": 27996,
                         "LOPEN": 24432
                     }
                 }
@@ -1892,12 +1808,7 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 31003,
-                        "GSCH": 61843,
-                        "GVJH": 11764,
-                        "GNT2H": 36351,
-                        "GOBCH": 32403,
-                        "LOPEN": 29046,
-                        "LOBCH": 31310
+                        "LOPEN": 29046
                     }
                 }
             }
@@ -1922,9 +1833,6 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 83743,
-                        "GSC": 92579,
-                        "GNT3": 92716,
-                        "GOBC": 118435,
                         "LOPEN": 109994
                     }
                 }
@@ -1936,12 +1844,6 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 40641,
-                        "GSC": 81545,
-                        "GVJ": 102457,
-                        "GNT1": 90486,
-                        "GNT2": 82332,
-                        "GNT3": 47528,
-                        "GOBC": 50684,
                         "LOPEN": 37009
                     }
                 }
@@ -1953,13 +1855,6 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 5965,
-                        "GSC": 18667,
-                        "GST": 52475,
-                        "GVJ": 13979,
-                        "GNT1": 12113,
-                        "GNT2": 7091,
-                        "GNT3": 7640,
-                        "GOBC": 6666,
                         "LOPEN": 7495
                     }
                 }
@@ -1970,14 +1865,7 @@
                 "annual_fee": 90000,
                 "cutoffs": {
                     "2024": {
-                        "GOPEN": 8997,
-                        "GSC": 21378,
-                        "GST": 67321,
-                        "GVJ": 24019,
-                        "GNT1": 18512,
-                        "GNT2": 9329,
-                        "GNT3": 10898,
-                        "GOBC": 9944
+                        "GOPEN": 8997
                     }
                 }
             },
@@ -1988,13 +1876,6 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 19307,
-                        "GSC": 49854,
-                        "GST": 101756,
-                        "GVJ": 58017,
-                        "GNT1": 35388,
-                        "GNT2": 27600,
-                        "GNT3": 20727,
-                        "GOBC": 21773,
                         "LOPEN": 19747
                     }
                 }
@@ -2006,12 +1887,7 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 87166,
-                        "GNT2": 113486,
-                        "GNT3": 114423,
-                        "GOBC": 117910,
-                        "LOPEN": 76274,
-                        "LSC": 121765,
-                        "LOBC": 105591
+                        "LOPEN": 76274
                     }
                 }
             },
@@ -2022,10 +1898,6 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 56554,
-                        "GSC": 115854,
-                        "GNT2": 61901,
-                        "GNT3": 61354,
-                        "GOBC": 75229,
                         "LOPEN": 85234
                     }
                 }
@@ -2050,8 +1922,8 @@
                 "annual_fee": 85000,
                 "cutoffs": {
                     "2024": {
-                        "GOPENS": 106462,
-                        "LOPENS": 103310
+                        "GOPEN": 106462,
+                        "LOPEN": 103310
                     }
                 }
             },
@@ -2061,10 +1933,8 @@
                 "annual_fee": 95000,
                 "cutoffs": {
                     "2024": {
-                        "GOPENS": 35254,
-                        "LOPENS": 32629,
-                        "MI": 100528,
-                        "TFWS": 21459
+                        "GOPEN": 35254,
+                        "LOPEN": 32629
                     }
                 }
             },
@@ -2074,8 +1944,8 @@
                 "annual_fee": 80000,
                 "cutoffs": {
                     "2024": {
-                        "GOPENS": 89210,
-                        "LOPENS": 88087
+                        "GOPEN": 89210,
+                        "LOPEN": 88087
                     }
                 }
             },
@@ -2085,10 +1955,8 @@
                 "annual_fee": 85000,
                 "cutoffs": {
                     "2024": {
-                        "GOPENS": 60903,
-                        "LOPENS": 53482,
-                        "MI": 109519,
-                        "TFWS": 55531
+                        "GOPEN": 60903,
+                        "LOPEN": 53482
                     }
                 }
             },
@@ -2098,10 +1966,8 @@
                 "annual_fee": 100000,
                 "cutoffs": {
                     "2024": {
-                        "GOPENS": 51528,
-                        "LOPENS": 47665,
-                        "MI": 119160,
-                        "TFWS": 40489
+                        "GOPEN": 51528,
+                        "LOPEN": 47665
                     }
                 }
             }
@@ -2126,9 +1992,6 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 94071,
-                        "GSCH": 109433,
-                        "GNT2H": 100066,
-                        "GNT3H": 104680,
                         "LOPEN": 117835
                     }
                 }
@@ -2140,15 +2003,7 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 15980,
-                        "GSCH": 35904,
-                        "GVJH": 21427,
-                        "GNT1H": 23119,
-                        "GNT2H": 17544,
-                        "GNT3H": 21777,
-                        "GOBCH": 18878,
-                        "LOPEN": 13132,
-                        "LSCH": 29464,
-                        "LOBCH": 17466
+                        "LOPEN": 13132
                     }
                 }
             },
@@ -2159,14 +2014,7 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 20031,
-                        "GSCH": 49971,
-                        "GVJH": 65495,
-                        "GNT1H": 44597,
-                        "GNT2H": 22892,
-                        "GOBCH": 23183,
-                        "LOPEN": 20369,
-                        "LSCH": 30934,
-                        "LOBCH": 20530
+                        "LOPEN": 20369
                     }
                 }
             },
@@ -2177,13 +2025,7 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 74204,
-                        "GSCH": 114570,
-                        "GNT2H": 77029,
-                        "GNT3H": 93631,
-                        "GOBCH": 116985,
-                        "LOPEN": 63251,
-                        "LSCH": 115392,
-                        "LOBCH": 80713
+                        "LOPEN": 63251
                     }
                 }
             },
@@ -2194,14 +2036,7 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 40813,
-                        "GSCH": 100435,
-                        "GNT1H": 86681,
-                        "GNT2H": 42356,
-                        "GNT3H": 44398,
-                        "GOBCH": 48885,
-                        "LOPEN": 40232,
-                        "LSCH": 69408,
-                        "LOBCH": 43532
+                        "LOPEN": 40232
                     }
                 }
             },
@@ -2211,21 +2046,10 @@
                 "annual_fee": 85000,
                 "cutoffs": {
                     "2024": {
-                        "Stage I": {
                             "GOPEN": 69991,
-                            "GSCH": 101638,
-                            "GVJH": 108568,
-                            "GNT2H": 77883,
-                            "GNT3H": 97185,
-                            "GOBCH": 102712,
-                            "LOPEN": 120202,
-                            "LOBCH": 121629
-                        },
-                        "Stage II": {
-                            "LOPEN": 121629
+                            "LOPEN": 120202
                         }
                     }
-                }
             },
             {
                 "name": "Artificial Intelligence and Data Science",
@@ -2234,15 +2058,7 @@
                 "cutoffs": {
                     "2024": {
                         "GOPEN": 23863,
-                        "GSCH": 57508,
-                        "GVJH": 103279,
-                        "GNT1H": 82784,
-                        "GNT2H": 28505,
-                        "GNT3H": 33246,
-                        "GOBCH": 26349,
-                        "LOPEN": 22665,
-                        "LSCH": 52010,
-                        "LOBCH": 26881
+                        "LOPEN": 22665
                     }
                 }
             }
@@ -2259,5 +2075,1426 @@
             "Laboratories",
             "Transportation"
         ]
-    }        
+    },
+    {
+        "name": "Government College of Engineering, Amravati",
+        "location": "Amravati",
+        "type": "Government Autonomous",
+        "rating": 4.5,
+        "courses": [
+            {
+                "name": "Civil Engineering",
+                "duration": "4 years",
+                "annual_fee": 90000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 40678,
+                        "LOPEN": 30535
+                    }
+                }
+            },
+            {
+                "name": "Computer Science and Engineering",
+                "duration": "4 years",
+                "annual_fee": 90000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 6412,
+                        "LOPEN": 4603
+                    }
+                }
+            },
+            {
+                "name": "Information Technology",
+                "duration": "4 years",
+                "annual_fee": 90000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 8456,
+                        "LOPEN": 8400
+                    }
+                }
+            },
+            {
+                "name": "Electrical Engineering",
+                "duration": "4 years",
+                "annual_fee": 90000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 26610,
+                        "LOPEN": 26549
+                    }
+                }
+            },
+            {
+                "name": "Electronics and Telecommunication Engineering",
+                "duration": "4 years",
+                "annual_fee": 90000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 15492,
+                        "LOPEN": 14248
+                    }
+                }
+            },
+            {
+                "name": "Instrumentation Engineering",
+                "duration": "4 years",
+                "annual_fee": 90000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 49414,
+                        "LOPEN": 46883
+                    }
+                }
+            },
+            {
+                "name": "Mechanical Engineering",
+                "duration": "4 years",
+                "annual_fee": 90000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 34421,
+                        "LOPEN": 40195
+                    }
+                }
+            }
+        ],
+        "placements": {
+            "average_package": 650000,
+            "highest_package": 2200000,
+            "top_recruiters": ["TCS", "Infosys", "Wipro", "L&T", "Mahindra"]
+        },
+        "facilities": ["Library", "Wi-Fi campus", "Sports complex", "Labs", "Hostel", "Canteen"]
+    },
+    {
+        "name": "PCCOE",
+        "location": "Pune",
+        "type": "Un-Aided Autonomous",
+        "rating": 4.2,
+        "courses": [
+            {
+                "name": "Civil Engineering",
+                "duration": "4 years",
+                "annual_fee": 120000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 22297,
+                        "LOPEN": 27866
+                    }
+                }
+            },
+            {
+                "name": "Computer Engineering",
+                "duration": "4 years",
+                "annual_fee": 140000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 2436,
+                        "LOPEN": 3142
+                    }
+                }
+            },
+            {
+                "name": "Information Technology",
+                "duration": "4 years",
+                "annual_fee": 135000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 3048,
+                        "LOPEN": 4054
+                    }
+                }
+            },
+            {
+                "name": "Computer Engineering (Regional Language)",
+                "duration": "4 years",
+                "annual_fee": 125000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 7011,
+                        "LOPEN": 8733
+                    }
+                }
+            },
+            {
+                "name": "Electronics and Telecommunication Engineering",
+                "duration": "4 years",
+                "annual_fee": 125000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 6680,
+                        "LOPEN": 8348
+                    }
+                }
+            },
+            {
+                "name": "Mechanical Engineering",
+                "duration": "4 years",
+                "annual_fee": 120000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 18721,
+                        "LOPEN": 30160
+                    }
+                }
+            },
+            {
+                "name": "Computer Science and Engineering (Artificial Intelligence and Machine Learning)",
+                "duration": "4 years",
+                "annual_fee": 150000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 3831,
+                        "LOPEN": 4512
+                    }
+                }
+            }
+        ],
+        "placements": {
+            "average_package": 650000,
+            "highest_package": 2800000,
+            "top_recruiters": ["Infosys", "Capgemini", "TCS", "Wipro"]
+        },
+        "facilities": ["Wi-Fi Campus", "Library", "Hostel", "Advanced Labs", "Transportation"]
+    },
+    {
+        "name": "DYP, Pimpri",
+        "location": "Pimpri, Pune",
+        "type": "Un-Aided",
+        "rating": 4.3,
+        "courses": [
+            {
+                "name": "Civil Engineering",
+                "duration": "4 years",
+                "annual_fee": 125000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 121956,
+                        "LOPEN": 113527
+                    }
+                }
+            },
+            {
+                "name": "Computer Engineering",
+                "duration": "4 years",
+                "annual_fee": 135000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 10019,
+                        "LOPEN": 10928
+                    }
+                }
+            },
+            {
+                "name": "Information Technology",
+                "duration": "4 years",
+                "annual_fee": 130000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 11047,
+                        "LOPEN": 11658
+                    }
+                }
+            },
+            {
+                "name": "Electrical Engineering",
+                "duration": "4 years",
+                "annual_fee": 125000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 56148,
+                        "LOPEN": 47453
+                    }
+                }
+            },
+            {
+                "name": "Electronics and Telecommunication Engineering",
+                "duration": "4 years",
+                "annual_fee": 120000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 24101,
+                        "LOPEN": 21652
+                    }
+                }
+            },
+            {
+                "name": "Instrumentation Engineering",
+                "duration": "4 years",
+                "annual_fee": 120000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 62874,
+                        "LOPEN": 40122
+                    }
+                }
+            },
+            {
+                "name": "Mechanical Engineering",
+                "duration": "4 years",
+                "annual_fee": 125000,
+                "cutoffs": {
+                    "2024": {
+                            "GOPEN": 82553,
+                            "LOPEN": 111503
+                        }
+                    }
+                }
+        ],
+        "placements": {
+            "average_package": 600000,
+            "highest_package": 2000000,
+            "top_recruiters": ["Infosys", "TCS", "Capgemini", "Cognizant"]
+        },
+        "facilities": ["Wi-Fi Campus", "Library", "Sports Complex", "Hostel", "Cafeteria", "Labs"]
+    },
+    {
+        "name": "Pimpri Chinchwad College Of Engineering And Research, Ravet",
+        "location": "Pune",
+        "type": "Private",
+        "rating": 4.1,
+        "courses": [
+            {
+                "name": "Civil Engineering",
+                "duration": "4 years",
+                "annual_fee": 95000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 96685,
+                        "LOPEN": 93674
+                    }
+                }
+            },
+            {
+                "name": "Computer Engineering",
+                "duration": "4 years",
+                "annual_fee": 98000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 6372,
+                        "LOPEN": 6803
+                    }
+                }
+            },
+            {
+                "name": "Information Technology",
+                "duration": "4 years",
+                "annual_fee": 98000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 9304,
+                        "LOPEN": 9753
+                    }
+                }
+            },
+            {
+                "name": "Mechanical Engineering",
+                "duration": "4 years",
+                "annual_fee": 92000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 44253,
+                        "LOPEN": 39951
+                    }
+                }
+            }
+        ],
+        "placements": {
+            "average_package": 450000,
+            "highest_package": 1200000,
+            "top_recruiters": ["Infosys", "TCS", "Capgemini"]
+        },
+        "facilities": ["Wi-Fi Campus", "Modern Labs", "Library", "Sports Complex", "Hostel"]
+    },
+    {
+        "name": "Government College of Engineering",
+        "location": "Karad",
+        "type": "Government Autonomous",
+        "rating": 4.6,
+        "courses": [
+            {
+                "name": "Civil Engineering",
+                "duration": "4 years",
+                "annual_fee": 62000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 28152,
+                        "LOPEN": 32773
+                    }
+                }
+            },
+            {
+                "name": "Information Technology",
+                "duration": "4 years",
+                "annual_fee": 62000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 6101,
+                        "LOPEN": 6730
+                    }
+                }
+            },
+            {
+                "name": "Electrical Engineering",
+                "duration": "4 years",
+                "annual_fee": 62000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 19463,
+                        "LOPEN": 17757
+                    }
+                }
+            },
+            {
+                "name": "Electronics and Telecommunication Engineering",
+                "duration": "4 years",
+                "annual_fee": 62000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 11739,
+                        "LOPEN": 12388
+                    }
+                }
+            },
+            {
+                "name": "Mechanical Engineering",
+                "duration": "4 years",
+                "annual_fee": 62000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 19670,
+                        "LOPEN": 28756
+                    }
+                }
+            }
+        ],
+        "placements": {
+            "average_package": 750000,
+            "highest_package": 2000000,
+            "top_recruiters": ["TCS", "L&T", "Infosys"]
+        },
+        "facilities": ["Wi-Fi campus", "Library", "Sports complex", "Hostel", "Transportation"]
+    },
+    {
+        "name": "Guru Gobind Singh College of Engineering & Research Centre, Nashik",
+        "location": "Nashik",
+        "type": "Un-Aided",
+        "rating": 3.8,
+        "courses": [
+            {
+                "name": "Civil Engineering",
+                "duration": "4 years",
+                "annual_fee": 100000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 10415,
+                        "LOPEN": 113875
+                    }
+                }
+            },
+            {
+                "name": "Computer Engineering",
+                "duration": "4 years",
+                "annual_fee": 105000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 40026,
+                        "LOPEN": 38729
+                    }
+                }
+            },
+            {
+                "name": "Artificial Intelligence (AI) and Data Science",
+                "duration": "4 years",
+                "annual_fee": 110000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 49433,
+                        "LOPEN": 47063
+                    }
+                }
+            },
+            {
+                "name": "Electrical Engineering",
+                "duration": "4 years",
+                "annual_fee": 100000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 84125,
+                        "LOPEN": 71207
+                    }
+                }
+            },
+            {
+                "name": "Mechanical Engineering",
+                "duration": "4 years",
+                "annual_fee": 95000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 82493,
+                        "LOPEN": 91656
+                    }
+                }
+            }
+        ],
+        "placements": {
+            "average_package": 350000,
+            "highest_package": 800000,
+            "top_recruiters": ["TCS", "Wipro", "Capgemini", "Infosys"]
+        },
+        "facilities": [
+            "Wi-Fi Campus",
+            "Library",
+            "Labs",
+            "Hostel",
+            "Transportation"
+        ]
+    },
+    {
+        "name": "K. K. Wagh Institute of Engineering Education and Research",
+        "location": "Nashik",
+        "type": "Un-Aided Autonomous",
+        "rating": 4.3,
+        "courses": [
+            {
+                "name": "Civil Engineering",
+                "duration": "4 years",
+                "annual_fee": 110000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 80445,
+                        "LOPEN": 74570
+                    }
+                }
+            },
+            {
+                "name": "Computer Engineering",
+                "duration": "4 years",
+                "annual_fee": 120000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 11279,
+                        "LOPEN": 11854
+                    }
+                }
+            },
+            {
+                "name": "Information Technology",
+                "duration": "4 years",
+                "annual_fee": 120000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 14036,
+                        "LOPEN": 13422
+                    }
+                }
+            },
+            {
+                "name": "Computer Science and Design",
+                "duration": "4 years",
+                "annual_fee": 125000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 22896,
+                        "LOPEN": 21655
+                    }
+                }
+            },
+            {
+                "name": "Electrical Engineering",
+                "duration": "4 years",
+                "annual_fee": 110000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 62816,
+                        "LOPEN": 68954
+                    }
+                }
+            },
+            {
+                "name": "Electronics and Telecommunication Engineering",
+                "duration": "4 years",
+                "annual_fee": 110000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 34263,
+                        "LOPEN": 26951
+                    }
+                }
+            },
+            {
+                "name": "Chemical Engineering",
+                "duration": "4 years",
+                "annual_fee": 115000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 76417,
+                        "LOPEN": 62305
+                    }
+                }
+            },
+            {
+                "name": "Mechanical Engineering",
+                "duration": "4 years",
+                "annual_fee": 110000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 62072,
+                        "LOPEN": 70910
+                    }
+                }
+            },
+            {
+                "name": "Robotics and Automation",
+                "duration": "4 years",
+                "annual_fee": 130000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 61791,
+                        "LOPEN": 51262
+                    }
+                }
+            },
+            {
+                "name": "Artificial Intelligence and Data Science",
+                "duration": "4 years",
+                "annual_fee": 130000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 20849,
+                        "LOPEN": 20153
+                    }
+                }
+            }
+        ],
+        "placements": {
+            "average_package": 500000,
+            "highest_package": 1200000,
+            "top_recruiters": ["TCS", "Infosys", "Capgemini", "Cognizant"]
+        },
+        "facilities": ["Wi-Fi campus", "Library", "Labs", "Hostel", "Canteen", "Sports facilities", "Incubation center"]
+    },
+    {
+        "name": "G.H. Raisoni College of Engineering & Management",
+        "location": "Wagholi, Pune",
+        "type": "Un-Aided Autonomous Linguistic Minority - Hindi",
+        "rating": 3.8,
+        "courses": [
+            {
+                "name": "Civil Engineering",
+                "duration": "4 years",
+                "annual_fee": 95000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 105112,
+                        "LOPEN": 110802
+                    }
+                }
+            },
+            {
+                "name": "Computer Engineering",
+                "duration": "4 years",
+                "annual_fee": 100000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 16165,
+                        "LOPEN": 17237
+                    }
+                }
+            },
+            {
+                "name": "Information Technology",
+                "duration": "4 years",
+                "annual_fee": 100000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 20016,
+                        "LOPEN": 20679
+                    }
+                }
+            },
+            {
+                "name": "Computer Science and Engineering (Cyber Security)",
+                "duration": "4 years",
+                "annual_fee": 105000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 26212,
+                        "LOPEN": 30920
+                    }
+                }
+            },
+            {
+                "name": "Electrical Engineering",
+                "duration": "4 years",
+                "annual_fee": 95000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 80642,
+                        "LOPEN": 79069
+                    }
+                }
+            },
+            {
+                "name": "Electronics and Telecommunication Engineering",
+                "duration": "4 years",
+                "annual_fee": 95000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 36990,
+                        "LOPEN": 36960
+                    }
+                }
+            },
+            {
+                "name": "Mechanical Engineering",
+                "duration": "4 years",
+                "annual_fee": 95000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 98095,
+                        "LOPEN": 77389
+                    }
+                }
+            },
+            {
+                "name": "Computer Science and Engineering (Artificial Intelligence and Machine Learning)",
+                "duration": "4 years",
+                "annual_fee": 105000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 25749,
+                        "LOPEN": 30530
+                    }
+                }
+            }
+        ],
+        "placements": {
+            "average_package": 450000,
+            "highest_package": 1000000,
+            "top_recruiters": ["TCS", "Cognizant", "Infosys", "Capgemini"]
+        },
+        "facilities": ["Wi-Fi campus", "Hostel", "Library", "Labs", "Transportation"]
+    },
+    {
+        "name": "JSPM's Imperial College of Engineering and Research",
+        "location": "Wagholi, Pune",
+        "type": "Private",
+        "rating": 4.2,
+        "courses": [
+            {
+                "name": "Computer Engineering",
+                "duration": "4 years",
+                "annual_fee": 120000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 20335,
+                        "LOPEN": 21406
+                    }
+                }
+            },
+            {
+                "name": "Electronics and Telecommunication Engineering",
+                "duration": "4 years",
+                "annual_fee": 120000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 53978,
+                        "LOPEN": 53045
+                    }
+                }
+            },
+            {
+                "name": "Mechanical Engineering",
+                "duration": "4 years",
+                "annual_fee": 120000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 121203,
+                        "LOPEN": 112321
+                    }
+                }
+            }
+        ],
+        "placements": {
+            "average_package": 400000,
+            "highest_package": 1500000,
+            "top_recruiters": ["TCS", "Capgemini", "Wipro", "Infosys"]
+        },
+        "facilities": ["Wi-Fi Campus", "Library", "Labs", "Hostel", "Transportation", "Sports Facilities"]
+    },
+    {
+        "name": "JSPM, Tathawade, Pune",
+        "location": "Tathawade, Pune",
+        "type": "Un-Aided Autonomous",
+        "rating": 4.2,
+        "courses": [
+            {
+                "name": "Civil Engineering",
+                "duration": "4 years",
+                "annual_fee": 130000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 103205,
+                        "LOPEN": 122172
+                    }
+                }
+            },
+            {
+                "name": "Computer Engineering",
+                "duration": "4 years",
+                "annual_fee": 135000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 6967,
+                        "LOPEN": 7835
+                    }
+                }
+            },
+            {
+                "name": "Information Technology",
+                "duration": "4 years",
+                "annual_fee": 133000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 9568,
+                        "LOPEN": 10200
+                    }
+                }
+            },
+            {
+                "name": "Computer Science and Business Systems",
+                "duration": "4 years",
+                "annual_fee": 140000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 11605,
+                        "LOPEN": 11055
+                    }
+                }
+            },
+            {
+                "name": "Electrical Engineering",
+                "duration": "4 years",
+                "annual_fee": 128000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 50327,
+                        "LOPEN": 50668
+                    }
+                }
+            },
+            {
+                "name": "Electronics and Telecommunication Engineering",
+                "duration": "4 years",
+                "annual_fee": 127000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 17996,
+                        "LOPEN": 16786
+                    }
+                }
+            },
+            {
+                "name": "Mechanical Engineering",
+                "duration": "4 years",
+                "annual_fee": 125000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 72855,
+                        "LOPEN": 100171
+                    }
+                }
+            },
+            {
+                "name": "Automation and Robotics",
+                "duration": "4 years",
+                "annual_fee": 145000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 39078,
+                        "LOPEN": 44063
+                    }
+                }
+            }
+        ],
+        "placements": {
+            "average_package": 600000,
+            "highest_package": 2200000,
+            "top_recruiters": ["Infosys", "Wipro", "TCS", "Cognizant"]
+        },
+        "facilities": ["Wi-Fi campus", "Hostel", "Library", "Labs", "Transportation", "Sports facilities"]
+    },
+    {
+        "name": "Thadomal Shahani Engineering College",
+        "location": "Bandra, Mumbai",
+        "type": "Un-Aided Linguistic Minority - Sindhi",
+        "rating": 4.3,
+        "courses": [
+            {
+                "name": "Computer Engineering",
+                "duration": "4 years",
+                "annual_fee": 180000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 2822,
+                        "LOPEN": 3209
+                    }
+                }
+            },
+            {
+                "name": "Information Technology",
+                "duration": "4 years",
+                "annual_fee": 180000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 3292,
+                        "LOPEN": 5023
+                    }
+                }
+            },
+            {
+                "name": "Electronics and Telecommunication Engineering",
+                "duration": "4 years",
+                "annual_fee": 180000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 7589,
+                        "LOPEN": 10750
+                    }
+                }
+            },
+            {
+                "name": "Chemical Engineering",
+                "duration": "4 years",
+                "annual_fee": 180000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 12787,
+                        "LOPEN": 13403
+                    }
+                }
+            },
+            {
+                "name": "Artificial Intelligence and Data Science",
+                "duration": "4 years",
+                "annual_fee": 200000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 4702,
+                        "LOPEN": 6445
+                    }
+                }
+            }
+        ],
+        "placements": {
+            "average_package": 800000,
+            "highest_package": 2400000,
+            "top_recruiters": ["TCS", "Accenture", "Infosys", "Cognizant"]
+        },
+        "facilities": ["Wi-Fi Campus", "Library", "Labs", "Hostel", "Sports Complex"]
+    },
+    {
+        "name": "Pune Vidyarthi Griha's (PVG) College of Engineering and Technology and G K Pate (Wani) Institute of Management",
+        "location": "Pune",
+        "type": "Un-Aided",
+        "rating": 4.1,
+        "courses": [
+            {
+                "name": "Computer Engineering",
+                "duration": "4 years",
+                "annual_fee": 120000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 3946,
+                        "LOPEN": 4765
+                    }
+                }
+            },
+            {
+                "name": "Information Technology",
+                "duration": "4 years",
+                "annual_fee": 120000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 5106,
+                        "LOPEN": 5956
+                    }
+                }
+            },
+            {
+                "name": "Electrical Engineering",
+                "duration": "4 years",
+                "annual_fee": 115000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 41859,
+                        "LOPEN": 38771
+                    }
+                }
+            },
+            {
+                "name": "Electronics and Telecommunication Engineering",
+                "duration": "4 years",
+                "annual_fee": 115000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 14763,
+                        "LOPEN": 14330
+                    }
+                }
+            },
+            {
+                "name": "Mechanical Engineering",
+                "duration": "4 years",
+                "annual_fee": 115000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 40849,
+                        "LOPEN": 68938
+                    }
+                }
+            },
+            {
+                "name": "Artificial Intelligence and Data Science",
+                "duration": "4 years",
+                "annual_fee": 125000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 8715,
+                        "LOPEN": 11170
+                    }
+                }
+            }
+        ],
+        "placements": {
+            "average_package": 600000,
+            "highest_package": 2000000,
+            "top_recruiters": ["Wipro", "Infosys", "Capgemini", "TCS"]
+        },
+        "facilities": ["Wi-Fi Campus", "Library", "Labs", "Canteen", "Sports Complex"]
+    },
+    {
+        "name": "Modern Education Society's College of Engineering",
+        "location": "Pune",
+        "type": "Un-Aided",
+        "rating": 4.0,
+        "courses": [
+            {
+                "name": "Computer Engineering",
+                "duration": "4 years",
+                "annual_fee": 120000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 13058,
+                        "LOPEN": 12789
+                    }
+                }
+            },
+            {
+                "name": "Electronics and Telecommunication Engineering",
+                "duration": "4 years",
+                "annual_fee": 120000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 31477,
+                        "LOPEN": 30943
+                    }
+                }
+            },
+            {
+                "name": "Mechanical Engineering",
+                "duration": "4 years",
+                "annual_fee": 120000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 99228,
+                        "LOPEN": 98400
+                    }
+                }
+            },
+            {
+                "name": "Automation and Robotics",
+                "duration": "4 years",
+                "annual_fee": 140000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 58172,
+                        "LOPEN": 55675
+                    }
+                }
+            }
+        ],
+        "placements": {
+            "average_package": 600000,
+            "highest_package": 2000000,
+            "top_recruiters": ["Wipro", "Capgemini", "Infosys", "Cognizant"]
+        },
+        "facilities": ["Wi-Fi Campus", "Library", "Labs", "Sports Complex", "Canteen"]
+    },
+    {
+        "name": "Shri Guru Gobind Singhji Institute of Engineering and Technology",
+        "location": "Nanded",
+        "type": "Government-Aided Autonomous",
+        "rating": 4.5,
+        "courses": [
+            {
+                "name": "Civil Engineering",
+                "duration": "4 years",
+                "annual_fee": 105000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 45992,
+                        "LOPEN": 42973
+                    }
+                }
+            },
+            {
+                "name": "Computer Science and Engineering",
+                "duration": "4 years",
+                "annual_fee": 110000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 8174,
+                        "LOPEN": 9776
+                    }
+                }
+            },
+            {
+                "name": "Information Technology",
+                "duration": "4 years",
+                "annual_fee": 110000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 9875,
+                        "LOPEN": 10882
+                    }
+                }
+            },
+            {
+                "name": "Electrical Engineering",
+                "duration": "4 years",
+                "annual_fee": 105000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 25189,
+                        "LOPEN": 27105
+                    }
+                }
+            },
+            {
+                "name": "Electronics and Telecommunication Engineering",
+                "duration": "4 years",
+                "annual_fee": 110000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 18256,
+                        "LOPEN": 18886
+                    }
+                }
+            },
+            {
+                "name": "Instrumentation Engineering",
+                "duration": "4 years",
+                "annual_fee": 100000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 30894,
+                        "LOPEN": 28624
+                    }
+                }
+            },
+            {
+                "name": "Chemical Engineering",
+                "duration": "4 years",
+                "annual_fee": 100000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 43477,
+                        "LOPEN": 39823
+                    }
+                }
+            },
+            {
+                "name": "Production Engineering",
+                "duration": "4 years",
+                "annual_fee": 100000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 93602,
+                        "LOPEN": 85971
+                    }
+                }
+            }
+        ],
+        "placements": {
+            "average_package": 800000,
+            "highest_package": 2200000,
+            "top_recruiters": ["TCS", "Infosys", "Wipro", "L&T"]
+        },
+        "facilities": ["Wi-Fi Campus", "Library", "Hostels", "Sports Complex", "Labs"]
+    },
+    {
+        "name": "Sandip Institute of Engineering & Management",
+        "location": "Nashik",
+        "type": "Un-Aided",
+        "rating": 4.1,
+        "courses": [
+            {
+                "name": "Civil Engineering",
+                "duration": "4 years",
+                "annual_fee": 130000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 116652,
+                        "LOPEN": 115899
+                    }
+                }
+            },
+            {
+                "name": "Computer Engineering",
+                "duration": "4 years",
+                "annual_fee": 135000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 38196,
+                        "LOPEN": 36227
+                    }
+                }
+            },
+            {
+                "name": "Electrical Engineering",
+                "duration": "4 years",
+                "annual_fee": 130000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 116169,
+                        "LOPEN": 117826
+                    }
+                }
+            },
+            {
+                "name": "Electronics and Telecommunication Engineering",
+                "duration": "4 years",
+                "annual_fee": 132000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 69449,
+                        "LOPEN": 69445
+                    }
+                }
+            },
+            {
+                "name": "Mechanical Engineering",
+                "duration": "4 years",
+                "annual_fee": 130000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 120857,
+                        "LOPEN": 91281
+                    }
+                }
+            }
+        ],
+        "placements": {
+            "average_package": 450000,
+            "highest_package": 1200000,
+            "top_recruiters": ["TCS", "Cognizant", "Wipro", "Infosys"]
+        },
+        "facilities": ["Wi-Fi Campus", "Library", "Labs", "Hostel", "Cafeteria"]
+    },
+    {
+        "name": "Thakur College of Engineering and Technology",
+        "location": "Kandivali, Mumbai",
+        "type": "Un-Aided Autonomous Linguistic Minority - Hindi",
+        "rating": 4.2,
+        "courses": [
+            {
+                "name": "Civil Engineering",
+                "duration": "4 years",
+                "annual_fee": 180000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 33493,
+                        "LOPEN": 48030
+                    }
+                }
+            },
+            {
+                "name": "Computer Engineering",
+                "duration": "4 years",
+                "annual_fee": 200000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 6364,
+                        "LOPEN": 7684
+                    }
+                }
+            },
+            {
+                "name": "Information Technology",
+                "duration": "4 years",
+                "annual_fee": 200000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 8159,
+                        "LOPEN": 10543
+                    }
+                }
+            },
+            {
+                "name": "Internet of Things (IoT)",
+                "duration": "4 years",
+                "annual_fee": 200000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 14097,
+                        "LOPEN": 13681
+                    }
+                }
+            },
+            {
+                "name": "Mechanical and Mechatronics Engineering (Additive Manufacturing)",
+                "duration": "4 years",
+                "annual_fee": 190000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 58717,
+                        "LOPEN": 80026
+                    }
+                }
+            },
+            {
+                "name": "Electronics and Telecommunication Engineering",
+                "duration": "4 years",
+                "annual_fee": 180000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 21167,
+                        "LOPEN": 25424
+                    }
+                }
+            },
+            {
+                "name": "Mechanical Engineering",
+                "duration": "4 years",
+                "annual_fee": 180000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 24023,
+                        "LOPEN": 51648
+                    }
+                }
+            },
+            {
+                "name": "Electronics and Computer Science",
+                "duration": "4 years",
+                "annual_fee": 200000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 17824,
+                        "LOPEN": 19452
+                    }
+                }
+            }
+        ],
+        "placements": {
+            "average_package": 750000,
+            "highest_package": 2000000,
+            "top_recruiters": ["TCS", "Infosys", "L&T", "Capgemini"]
+        },
+        "facilities": ["Wi-Fi Campus", "Library", "Labs", "Hostel", "Sports Complex", "Cafeteria"]
+    },
+    {
+        "name": "Amrutvahini College of Engineering",
+        "location": "Sangamner",
+        "type": "Un-Aided",
+        "rating": 4.2,
+        "courses": [
+            {
+                "name": "Civil Engineering",
+                "duration": "4 years",
+                "annual_fee": 95000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 93090,
+                        "LOPEN": 83349
+                    }
+                }
+            },
+            {
+                "name": "Computer Engineering",
+                "duration": "4 years",
+                "annual_fee": 100000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 16661,
+                        "LOPEN": 14487
+                    }
+                }
+            },
+            {
+                "name": "Information Technology",
+                "duration": "4 years",
+                "annual_fee": 100000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 20584,
+                        "LOPEN": 19265
+                    }
+                }
+            },
+            {
+                "name": "Electrical Engineering",
+                "duration": "4 years",
+                "annual_fee": 95000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 45699,
+                        "LOPEN": 42509
+                    }
+                }
+            },
+            {
+                "name": "Electronics and Telecommunication Engineering",
+                "duration": "4 years",
+                "annual_fee": 95000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 30283,
+                        "LOPEN": 29417
+                    }
+                }
+            },
+            {
+                "name": "Mechanical Engineering",
+                "duration": "4 years",
+                "annual_fee": 95000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 65174,
+                        "LOPEN": 66322
+                    }
+                }
+            },
+            {
+                "name": "Electronics and Computer Engineering",
+                "duration": "4 years",
+                "annual_fee": 100000,
+                "cutoffs": {
+                    "2024": {
+                        "GOPEN": 32094,
+                        "LOPEN": 30777
+                    }
+                }
+            }
+        ],
+        "placements": {
+            "average_package": 450000,
+            "highest_package": 1200000,
+            "top_recruiters": ["TCS", "Wipro", "Infosys", "Capgemini"]
+        },
+        "facilities": ["Library", "Labs", "Hostel", "Wi-Fi Campus", "Sports Complex"]
+    }                                                       
 ]

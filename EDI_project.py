@@ -4,16 +4,21 @@ from fuzzywuzzy import process, fuzz
 from typing import Dict, List
 import cohere
 from argostranslate import package, translate
-
+from dotenv import load_dotenv
+import os
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+
+load_dotenv()
+# Cohere API setup
+cohere_api_key = os.getenv('COHERE_API_KEY')  # Get the API key from the environment variable
+co = cohere.Client(cohere_api_key)
+
+
 app = Flask(__name__)
 CORS(app)  # Enable CORS for cross-origin requests
 
 
-# Cohere API setup
-cohere_api_key = 'TsY1cWlAAL00usoIgNEeHLxkiYO9vzSSwzZQKppW'  # Replace with your actual API key
-co = cohere.Client(cohere_api_key)
 
 # Load dataset
 def load_data(file_path='dataset1.json'):
@@ -310,11 +315,12 @@ def generate_dynamic_response_college(intent, college_data, language='english', 
         return generate_cutoff_response(branch_cutoffs, college_data['name'], language)
 
     elif intent == 'fees':
-        fees_info = "\n".join([f"{course['name']}: ₹{course['annual_fee']:,}/year" for course in college_data['courses']])
+        # Fetch the fee of the first course
+        annual_fee = college_data['courses'][0]['annual_fee']
         if language == 'hinglish':
-            return f"{college_data['name']} ki fees:\n{fees_info}"
+            return f"{college_data['name']} ki fees:\n₹{annual_fee:,}/saal"
         else:
-            return f"The fees for {college_data['name']} are:\n{fees_info}"
+            return f"The fees for {college_data['name']} are:\n₹{annual_fee:,}/year"
 
     elif intent == 'highest_package' or intent=='highest_salary':
         highest_package = college_data['placements']['highest_package']
@@ -377,6 +383,8 @@ def generate_dynamic_response_eligibility(intent, language='english', rank=None,
 # Add these methods at the end of the combined.py file
 # Main query processing function for general college queries
 def process_user_query(user_query, dataset):
+
+
     detected_language = detect_language(user_query)
 
     # First, try to process as an eligibility/best college query
@@ -409,6 +417,10 @@ def process_user_query(user_query, dataset):
                 eligible_entries=eligible_entries
             )
     
+    casual_response = handle_casual_conversation(user_query)
+    if casual_response:
+        return casual_response
+    
     # If not an eligibility query, process as a regular college query
     ai_response = cohere_understand_query(user_query)
     parsed_data = parse_cohere_response(ai_response)
@@ -427,6 +439,49 @@ def process_user_query(user_query, dataset):
         branch=branch_name, 
         year=year
     )
+
+
+def handle_casual_conversation(user_query):
+    """
+    Handle casual conversational queries using Cohere's generative model
+    """
+    # Predefined conversational intents
+    conversational_intents = [
+        "greeting", "small_talk", "how_are_you", "introduction", 
+        "farewell", "appreciation", "joke", "general_chat"
+    ]
+
+    # Prompt to classify the intent and generate an appropriate response
+    prompt = (
+        f"Classify the intent of this message: '{user_query}'\n"
+        "Possible intents: " + ", ".join(conversational_intents) + "\n"
+        "If the intent is casual/conversational, generate a friendly, natural response. "
+        "If it doesn't fit a conversational intent, return 'NOT_CONVERSATIONAL'.\n"
+        "Format your response as: 'Intent: [intent]\nResponse: [generated_response]'"
+    )
+
+    # Use Cohere to generate a response
+    response = co.generate(
+        model="command-xlarge-nightly",
+        prompt=prompt,
+        max_tokens=100,
+        temperature=0.7
+    )
+
+    # Process the generated response
+    generated_text = response.generations[0].text.strip()
+    
+    # Parse the response
+    lines = generated_text.split('\n')
+    intent = lines[0].split(': ')[1] if len(lines) > 0 and ':' in lines[0] else None
+    
+    if intent and intent != 'NOT_CONVERSATIONAL':
+        response_text = lines[1].split(': ')[1] if len(lines) > 1 else generated_text
+        return response_text
+
+    return None
+
+
 # Chatbot interaction loop
 @app.route('/chat', methods=['POST'])
 def chat():

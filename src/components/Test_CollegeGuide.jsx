@@ -10,11 +10,6 @@ import { MessageCircle, X } from 'lucide-react';
 import VITPuneImage from './VIT-Pune.webp';
 import VJTIImage from './VJTI.jpg';
 import COEPImage from './COEP-Pune-1.webp';
-import PICTImage from './PICT.jpg';
-import PCCOEImage from './PCCOE.jpeg';
-import RamdeobabaImage from './Ramdeobaba.jpeg';
-import SPCEImage from './SPCE.jpeg';
-import WalchandImage from './Walchand.jpeg';
 import FloatingChat from './FloatingChat';
 
 
@@ -61,67 +56,15 @@ const CollegeGuide = () => {
       courses: ['IT', 'Civil', 'Chemical']
     },
     {
-      name: 'Walchand Sangli',
-      description: 'Specialized in Computer & IT education',
-      rating: 4.7,
-      details: [
-        'Est. 1947',
-        '98% Placement',
-        'ISO Certified'
-      ],
-      image: WalchandImage,
-      tags: ['IT', 'Computer Science'],
-      courses: ['AI/ML', 'Data Science', 'IoT']
-    },
-    {
       name: 'VIT Pune',
       description: 'Specialized in Computer & IT education',
       rating: 4.6,
-      details: [
-        'Est. 1999',
-        '98% Placement',
-        'ISO Certified'
-      ],
-      image: VITPuneImage,
-      tags: ['IT', 'Computer Science'],
-      courses: ['AI/ML', 'Data Science', 'IoT']
-    },
-    {
-      name: 'PICT Pune',
-      description: 'Specialized in Computer & IT education',
-      rating: 4.5,
       details: [
         'Est. 1983',
         '98% Placement',
         'ISO Certified'
       ],
-      image: PICTImage,
-      tags: ['IT', 'Computer Science'],
-      courses: ['ECE', 'Data Science', 'IoT']
-    },
-    {
-      name: 'SPCE Mumbai',
-      description: 'Specialized in Computer & IT education',
-      rating: 4.7,
-      details: [
-        'Est. 1962',
-        '98% Placement',
-        'ISO Certified'
-      ],
-      image: SPCEImage,
-      tags: ['IT', 'Computer Science'],
-      courses: ['AI/ML', 'Data Science', 'IoT']
-    },
-    {
-      name: 'Ramdeobaba College of Engineering',
-      description: 'Specialized in Computer & IT education',
-      rating: 4.7,
-      details: [
-        'Est. 1984',
-        '98% Placement',
-        'ISO Certified'
-      ],
-      image: RamdeobabaImage,
+      image: VITPuneImage,
       tags: ['IT', 'Computer Science'],
       courses: ['AI/ML', 'Data Science', 'IoT']
     }
@@ -153,7 +96,7 @@ const CollegeGuide = () => {
             <p className="text-xl text-gray-100/90 mb-12 max-w-3xl mx-auto leading-relaxed">
               Explore top engineering colleges in Maharashtra, compare features, and make informed decisions for your future.
             </p>
-            {/* <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
+            <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
               <button className="group bg-white text-blue-600 px-8 py-4 rounded-md font-medium hover:bg-gray-50 transition-colors flex items-center justify-center gap-2">
                 Explore Colleges
                 <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
@@ -162,14 +105,14 @@ const CollegeGuide = () => {
                 Compare Colleges
                 <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
               </button>
-            </div> */}
+            </div>
             
             {/* Quick Stats */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               {[
-                { number: '20+ Cities', label: 'State-wide coverage' },
-                { number: '100%', label: 'Guidance' },
-                { number: '10+', label: 'Top-Ranked Colleges' }
+                { number: '50+', label: 'Partner Colleges' },
+                { number: '10,000+', label: 'Student Reviews' },
+                { number: '95%', label: 'Placement Rate' }
               ].map((stat, index) => (
                 <div key={index} className="bg-white/10 backdrop-blur-sm rounded-lg p-6 transform hover:-translate-y-1 transition-transform">
                   <div className="text-3xl font-bold text-white mb-2">{stat.number}</div>
@@ -209,80 +152,76 @@ const CollegeGuide = () => {
 
       {/* Featured Colleges Section */}
       <section className="py-20">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="text-center mb-12">
-      <h2 className="text-3xl font-bold mb-4">Featured Colleges</h2>
-      <p className="text-gray-600 max-w-2xl mx-auto">
-        Explore top-rated engineering colleges with excellent placement records and academic programs
-      </p>
-    </div>
-
-    {/* Filters */}
-    <div className="flex justify-center gap-4 mb-12">
-      {['Engineering'].map((tab) => (
-        <button
-          key={tab}
-          onClick={() => setActiveTab(tab.toLowerCase())}
-          className={`px-6 py-2 rounded-full transition-colors ${
-            activeTab === tab.toLowerCase()
-              ? 'bg-blue-600 text-white'
-              : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-          }`}
-        >
-          {tab}
-        </button>
-      ))}
-    </div>
-
-    {/* Featured Colleges Scrollable Section */}
-    <div className="overflow-x-auto">
-      <div className="flex gap-8 min-w-max">
-        {featuredColleges.map((college, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden group w-80">
-            <div className="relative">
-              <img src={college.image} alt={college.name} className="w-full h-48 object-cover" />
-              <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 flex items-center gap-1">
-                <Star className="w-4 h-4 text-yellow-400 fill-current" />
-                <span className="font-medium">{college.rating}</span>
-              </div>
-            </div>
-            <div className="p-6">
-              <div className="flex justify-between items-start mb-4">
-                <h3 className="text-xl font-semibold group-hover:text-blue-600 transition-colors">{college.name}</h3>
-              </div>
-              <p className="text-gray-600 mb-4">{college.description}</p>
-
-              {/* Tags */}
-              <div className="flex flex-wrap gap-2 mb-4">
-                {college.tags.map((tag, idx) => (
-                  <span key={idx} className="bg-blue-50 text-blue-600 text-sm px-3 py-1 rounded-full">
-                    {tag}
-                  </span>
-                ))}
-              </div>
-
-              {/* Details */}
-              <ul className="space-y-2 mb-6">
-                {college.details.map((detail, idx) => (
-                  <li key={idx} className="text-sm text-gray-600 flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-green-500" />
-                    {detail}
-                  </li>
-                ))}
-              </ul>
-
-              <button className="w-full bg-gray-50 hover:bg-gray-100 text-blue-600 font-medium py-2 rounded-md transition-colors flex items-center justify-center gap-2 group">
-                Learn More
-                <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
-              </button>
-            </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">Featured Colleges</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Explore top-rated engineering colleges with excellent placement records and academic programs
+            </p>
           </div>
-        ))}
-      </div>
-    </div>
-  </div>
-</section>
 
+          {/* Filters */}
+          <div className="flex justify-center gap-4 mb-12">
+            {['All', 'Engineering', 'IT', 'Research'].map((tab) => (
+              <button
+                key={tab}
+                onClick={() => setActiveTab(tab.toLowerCase())}
+                className={`px-6 py-2 rounded-full transition-colors ${
+                  activeTab === tab.toLowerCase()
+                    ? 'bg-blue-600 text-white'
+                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                }`}
+              >
+                {tab}
+              </button>
+            ))}
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {featuredColleges.map((college, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden group">
+                <div className="relative">
+                  <img src={college.image} alt={college.name} className="w-full h-48 object-cover" />
+                  <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 flex items-center gap-1">
+                    <Star className="w-4 h-4 text-yellow-400 fill-current" />
+                    <span className="font-medium">{college.rating}</span>
+                  </div>
+                </div>
+                <div className="p-6">
+                  <div className="flex justify-between items-start mb-4">
+                    <h3 className="text-xl font-semibold group-hover:text-blue-600 transition-colors">{college.name}</h3>
+                  </div>
+                  <p className="text-gray-600 mb-4">{college.description}</p>
+                  
+                  {/* Tags */}
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {college.tags.map((tag, idx) => (
+                      <span key={idx} className="bg-blue-50 text-blue-600 text-sm px-3 py-1 rounded-full">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+
+                  {/* Details */}
+                  <ul className="space-y-2 mb-6">
+                    {college.details.map((detail, idx) => (
+                      <li key={idx} className="text-sm text-gray-600 flex items-center gap-2">
+                        <CheckCircle className="w-4 h-4 text-green-500" />
+                        {detail}
+                      </li>
+                    ))}
+                  </ul>
+
+                  <button className="w-full bg-gray-50 hover:bg-gray-100 text-blue-600 font-medium py-2 rounded-md transition-colors flex items-center justify-center gap-2 group">
+                    Learn More
+                    <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-indigo-600">
@@ -291,10 +230,10 @@ const CollegeGuide = () => {
           <p className="text-gray-100 mb-8 max-w-2xl mx-auto">
             Join thousands of students who have found their perfect college match through our platform
           </p>
-          {/* <button className="bg-white text-blue-600 px-8 py-4 rounded-md font-medium hover:bg-gray-50 transition-colors inline-flex items-center gap-2 group">
-            Now
-            Get Started <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
-          </button> */}
+          <button className="bg-white text-blue-600 px-8 py-4 rounded-md font-medium hover:bg-gray-50 transition-colors inline-flex items-center gap-2 group">
+            Get Started Now
+            <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
+          </button>
           
         </div>
         
@@ -313,7 +252,7 @@ const CollegeGuide = () => {
                 <path d="M12 14l9-5-9-5-9 5 9 5z"/>
                 <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
               </svg>
-              <span className="text-blue-600 text-2xl font-bold">NSquire</span>
+              <span className="text-blue-600 text-2xl font-bold">College Guide</span>
             </Link>
             
             <nav className="hidden md:flex space-x-8">
