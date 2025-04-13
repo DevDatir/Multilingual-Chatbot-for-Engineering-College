@@ -1,70 +1,158 @@
-# Getting Started with Create React Appp
+# NSquire - Maharashtra Engineering College Assistant 🎓
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![NSquire Platform](images/HomePage.png)
 
-## Available Scripts
+## About NSquire
 
-In the project directory, you can run:
+NSquire is an AI-powered chatbot designed to help students in Maharashtra find information about engineering colleges. The assistant provides details about cutoffs, fees, placements, and other essential information to help students make informed decisions about their educational future.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **College Information**: Get detailed information about engineering colleges in Maharashtra
+- **Cutoff Details**: View branch-wise cutoff ranks for different categories (GOPEN, LOPEN)
+- **Fee Structure**: Check course-wise fees for various colleges
+- **Placement Information**: Get average and highest package details
+- **Eligibility Search**: Find colleges you're eligible for based on your rank and category
+- **Best College Recommendations**: Get personalized college recommendations
+- **Multilingual Support**: Interact in both English and Hinglish
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo Screenshots
 
-### `npm test`
+### Chat Interface
+![PICT Cutoff Query](images/1.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### College Cutoff Details
+![Placement Information](images/2.png)
 
-### `npm run build`
+### Placement Details
+![College Cutoffs](images/4.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 
+![NSquire Interface](images/3.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Python**: Core programming language for backend processing
+- **React.js**: Frontend framework for building user interface
+- **HTML/CSS**: Frontend structure and styling
+- **Flask**: Backend web framework
+- **Cohere**: NLP processing for intent extraction and text generation
+- **FuzzyWuzzy**: Fuzzy string matching for college name recognition
+- **Argos Translate**: Translation capabilities for multilingual support
 
-### `npm run eject`
+## Technical Architecture
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The chatbot follows this processing pipeline:
+1. **Language Detection**: Identifies if the query is in English or Hinglish
+2. **Intent Recognition**: Uses Cohere AI to extract intent and entities
+3. **Entity Extraction**: Pulls out college names, branch details, ranks, etc.
+4. **Data Retrieval**: Fetches information from the dataset
+5. **Response Generation**: Constructs appropriate responses based on intent
+6. **Translation**: Translates responses if needed for Hinglish queries
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+├── images/              # Screenshots and demo images
+├── public/              # Public assets for React
+├── src/                 # React source files
+│   ├── components/      # React components
+│   ├── styles/          # CSS styles
+│   └── App.js           # Main React application
+├── EDI_project.py       # Main application code
+├── dataset1.json        # College database
+├── Test.py              # Test implementation
+├── .env                 # Environment variables (API keys)
+├── package.json         # NPM package configuration
+├── package-lock.json    # NPM package lock
+├── tailwind.config.js   # Tailwind CSS configuration
+├── README.md            # Project documentation
+└── chatbot.log          # Logging file
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Key Components
 
-## Learn More
+### Intent Detection
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The system recognizes various intents:
+- `cutoff`: Query about college cutoff ranks
+- `fees`: Query about college fees
+- `highest_package`: Query about highest placement package
+- `average_package`: Query about average placement package
+- `info`: General information about a college
+- `eligibility`: Query to find eligible colleges based on rank
+- `best_college`: Query to find the best college from eligible options
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### API Endpoints
 
-### Code Splitting
+The Flask application exposes the following endpoint:
+- `/chat` (POST): Main endpoint for processing chat queries
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Sample Queries
 
-### Analyzing the Bundle Size
+Users can ask questions like:
+- "What is the cutoff for VJTI Computer Engineering?"
+- "PICT pune ke computer engineering ka cutoff kya hai?"
+- "What are the fees for COEP?"
+- "What is the highest package of VJTI?"
+- "What colleges can I get with a rank of 5000 in GOPEN category?"
+- "Which is the best college I can get with a 3000 rank?"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Setup and Installation
 
-### Making a Progressive Web App
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/nsquire-college-assistant.git
+cd nsquire-college-assistant
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. Install the required dependencies
+```bash
+pip install -r requirements.txt
+npm install
+```
 
-### Advanced Configuration
+3. Set up environment variables in .env file
+```
+COHERE_API_KEY=your_cohere_api_key_here
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. Run the backend server
+```bash
+python EDI_project.py
+```
 
-### Deployment
+5. Start the React frontend
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+6. The backend server will start at `http://localhost:5001` and frontend will be at `http://localhost:3000`
 
-### `npm run build` fails to minify
+## Requirements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Python 3.8+
+- Node.js and npm
+- Flask
+- React.js
+- Cohere API key
+- FuzzyWuzzy
+- Argostranslate
+- Flask-CORS
+
+## Future Enhancements
+
+- Add support for more regional languages
+- Expand the college database to include more institutions
+- Implement a more user-friendly web interface
+- Add more features like college comparison
+- Integrate with admission portals
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+
+- Cohere for providing the NLP capabilities
+- Maharashtra State CET Cell for cutoff data reference
